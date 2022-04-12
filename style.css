@@ -1,0 +1,129 @@
+html {
+    background-color: #23252C;
+}
+
+#root {
+    background-color: #23252C;
+}
+
+* {
+    box-sizing: border-box;    
+}
+
+
+#container {
+    width: 317px;
+    height: 780px;
+    background-color: #1A1B21;;
+    overflow:hidden;
+    border-radius: 10px;
+    /* border: dotted 1px lightgreen; */
+    padding-bottom: 0px;
+
+}
+
+
+#headshot {
+    max-width:100%;
+    max-height:100%;
+}
+
+#content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+
+
+
+.title-container{
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 0px;
+
+}
+
+.title-container h1{
+    margin-bottom: 0px;
+}
+
+.title-container p {
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.title-container .portfolio-link {
+    margin-top: 8px;
+}
+
+.email-button {
+    background-color:white;
+    margin-top:16px;
+    color: #374151;
+    width: auto;
+    height: 35px;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+
+}
+
+.email--icon-text {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.email--icon-text > * {
+    background-color: white;
+}
+
+.email--icon-text > img{
+    margin-right: 8px
+}
+
+.content-block {
+    padding-left: 35px;
+    padding-right:35px;
+    /* padding-top:0px; */
+}
+
+.content-block h2 {
+    margin-bottom: 0px;
+    padding-block-end: 0px;
+    /* padding-bottom: 0px; */
+}
+
+.content-block p {
+    margin-top:5px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+footer {
+    /* position: absolute; */
+    /* border: dashed 1px white; */
+    margin-bottom: 0px;
+    /* box-sizing: border-box; */
+    /* width:100%; */
+    /* bottom: -100px; */
+    /* left: 0; */
+    /* padding-left: 0px; */
+    /* text-align: center; */
+}
+
+footer > ul {
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 19px 48px;
+}
